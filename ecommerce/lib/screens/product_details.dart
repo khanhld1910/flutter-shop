@@ -1,3 +1,4 @@
+import 'package:ecommerce/screens/shop.dart';
 import 'package:flutter/material.dart';
 
 class ProductDetail extends StatelessWidget {
@@ -7,18 +8,13 @@ class ProductDetail extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        centerTitle: false,
         titleSpacing: 0,
-        title: Text(
-          'Product Details',
-          style: Theme.of(context).textTheme.titleLarge,
-        ),
         actions: [
           IconButton(
             onPressed: () {},
             icon: const Icon(
-              Icons.home,
-              size: 36,
+              Icons.favorite,
+              color: Colors.red,
             ),
           )
         ],
