@@ -49,6 +49,27 @@ class ShopPage extends StatelessWidget {
           ),
         ],
       ),
+      body: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: Wrap(
+          direction: Axis.vertical,
+          spacing: 10,
+          children: <Widget>[
+            const SizedBox(height: 20),
+            Text(
+              'Explore',
+              style: Theme.of(context).textTheme.titleLarge,
+            ),
+            Text(
+              'best Outfits for you',
+              style: Theme.of(context)
+                  .textTheme
+                  .bodyLarge!
+                  .copyWith(color: Colors.black26, fontSize: 20),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

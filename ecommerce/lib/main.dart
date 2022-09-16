@@ -24,8 +24,8 @@ class MyApp extends StatelessWidget {
           ),
           textTheme: const TextTheme(
             titleLarge: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.bold,
+              fontSize: 36,
+              fontWeight: FontWeight.w600,
               color: Colors.black,
             ),
             titleMedium: TextStyle(
